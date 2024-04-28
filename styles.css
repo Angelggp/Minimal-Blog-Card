@@ -17,7 +17,7 @@ body {
     height: 388px;
     width: 368px;
     border-radius: 12px;
-    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, .1);
     background-color: #FFFFFF;
 }
 
