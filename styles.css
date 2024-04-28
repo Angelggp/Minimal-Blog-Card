@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sora", sans-serif;
+    background-color: #FFFFFF;
+}
+
+.card {
+    height: 388px;
+    width: 368px;
+    border-radius: 12px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    background-color: #FFFFFF;
+}
+
+.card-image{
+    width: 336px;
+    height: 152px;
+    margin: 16px;
+    border-radius: 8px;
+    background: url('./cactus_img.jpg') top / cover;
+}
+
+b {
+    margin-left: 16px;
+    width: 64px;
+    background-color: #E6D6FC;
+    color: #883AE1;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 4px 18px 4px 18px;
+}
+
+h1 {
+    margin: 16px 16px 0 16px;
+    font-size: 18px;
+    color: #20293A;
+}
+
+.card-body {
+    margin: 6px 16px 20px 16px ;
+    font-size: 14px;
+    color: #6C727F;
+    line-height: 21px;
+}
+
+.line {
+    width: auto;
+    height: .9px;
+    background-color: #E5EAF0ed;
+}
+
+.card-end {
+    font-size: 12px;
+    color: #6C727F;
+    margin: 20px 16px;
+}
